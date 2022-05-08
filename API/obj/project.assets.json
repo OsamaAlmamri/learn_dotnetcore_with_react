@@ -1323,11 +1323,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ASP\\ReactUdemy\\Lect!\\API\\API.csproj",
+      "projectUniqueName": "E:\\ASP\\ReactUdemy\\Reactivities\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\ASP\\ReactUdemy\\Lect!\\API\\API.csproj",
+      "projectPath": "E:\\ASP\\ReactUdemy\\Reactivities\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Osama\\.nuget\\packages\\",
-      "outputPath": "E:\\ASP\\ReactUdemy\\Lect!\\API\\obj\\",
+      "outputPath": "E:\\ASP\\ReactUdemy\\Reactivities\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -1349,8 +1349,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\ASP\\ReactUdemy\\Lect!\\Application\\Application.csproj": {
-              "projectPath": "E:\\ASP\\ReactUdemy\\Lect!\\Application\\Application.csproj"
+            "E:\\ASP\\ReactUdemy\\Reactivities\\Application\\Application.csproj": {
+              "projectPath": "E:\\ASP\\ReactUdemy\\Reactivities\\Application\\Application.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sjb2qZLoGSU8fswWP2soST1j9Kjgo00tXeKMzharu/jYVNPI4RaK72hn5YofsnZSGZiopSBcPQPyjh2vPYHjwQ==",
+  "dgSpecHash": "WzKu0aoBdfo4A5GMv4JYnezW6NsFeWR85AGBkrqMlxOz/fPbRTAwSMk3WY6XD9a1EuCSz6RnXx2ZXT0aQwTmkQ==",
   "success": true,
-  "projectFilePath": "E:\\ASP\\ReactUdemy\\Lect!\\Application\\Application.csproj",
+  "projectFilePath": "E:\\ASP\\ReactUdemy\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Osama\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.4\\microsoft.data.sqlite.core.5.0.4.nupkg.sha512",
     "C:\\Users\\Osama\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
