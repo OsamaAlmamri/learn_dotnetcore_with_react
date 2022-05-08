@@ -359,6 +359,10 @@
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.4"
+        },
         "compile": {
           "bin/placeholder/Domain.dll": {}
         },
@@ -949,6 +953,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Domain >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.4"
     ]
   },
@@ -959,11 +964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\ASP\\ReactUdemy\\Lect!\\Persistent\\Persistent.csproj",
+      "projectUniqueName": "E:\\ASP\\ReactUdemy\\Lect!\\Persistent\\Persistent.csproj",
       "projectName": "Persistent",
-      "projectPath": "e:\\ASP\\ReactUdemy\\Lect!\\Persistent\\Persistent.csproj",
+      "projectPath": "E:\\ASP\\ReactUdemy\\Lect!\\Persistent\\Persistent.csproj",
       "packagesPath": "C:\\Users\\Osama\\.nuget\\packages\\",
-      "outputPath": "e:\\ASP\\ReactUdemy\\Lect!\\Persistent\\obj\\",
+      "outputPath": "E:\\ASP\\ReactUdemy\\Lect!\\Persistent\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"
@@ -977,14 +982,16 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "e:\\ASP\\ReactUdemy\\Lect!\\Domain\\Domain.csproj": {
-              "projectPath": "e:\\ASP\\ReactUdemy\\Lect!\\Domain\\Domain.csproj"
+            "E:\\ASP\\ReactUdemy\\Lect!\\Domain\\Domain.csproj": {
+              "projectPath": "E:\\ASP\\ReactUdemy\\Lect!\\Domain\\Domain.csproj"
             }
           }
         }
@@ -999,6 +1006,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.4, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.4, )"

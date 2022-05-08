@@ -1,1 +1,30 @@
 dotnet sln list
+
+
+
+--------- dotnet ef  --------------------
+dotnet tool list --global
+dotnet tool install  --global dotnet-ef --version 5.0.1
+dotnet tool update  --global dotnet-ef --version 5.0.1
+
+
+dotnet ef -h
+
+----
+Options:
+  --version        Show version information
+  -h|--help        Show help information
+  -v|--verbose     Show verbose output.
+  --no-color       Don't colorize output.
+  --prefix-output  Prefix output with level.
+
+Commands:
+  dotnet ef database    Commands to manage the database.
+  dotnet ef dbcontext   Commands to manage DbContext types.
+  dotnet ef migrations  Commands to manage migrations.
+
+-------------------------------------------------------------------
+--------- add migration to project Persistent and make determine the startup projec is API 
+dotnet ef migrations add InisitalCeate -p Persistent -s API
+
+

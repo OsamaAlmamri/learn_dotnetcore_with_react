@@ -3,3 +3,8 @@ Domain/obj
 API/obj
 Persistent/obj
 Application/obj
+Persistent/bin/
+Application/bin/
+Domain/bin/
+API/bin/
+Application/obj
