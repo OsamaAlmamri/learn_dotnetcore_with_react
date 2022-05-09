@@ -28,3 +28,8 @@ Commands:
 dotnet ef migrations add InisitalCeate -p Persistent -s API
 
 
+
+
+npx --ignore-existing create-react-app@yourversion your-project-name
+npx --ignore-existing create-react-app@yourversion your-project-name
+npx --ignore-existing create-react-app@17.0.2 my-app --template typescript
