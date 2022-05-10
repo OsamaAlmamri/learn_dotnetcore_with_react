@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "CsOHKo/7j2hHmTKZHdMowq829PzBy1Xu6WcfYQz9gnQ7DR6gPPFryQgJfm7a28Fy92DUd/1DjqPV6+d8xwpNhQ==",
+  "dgSpecHash": "gRFkj5D3VsxPllp5P+oiJXocMgPE0JT7IHaNx4I+bNOfPdrMB5XJP1QGKZs2mXusxcnzvktp9bs89u1haGkYew==",
   "success": true,
   "projectFilePath": "E:\\ASP\\ReactUdemy\\Reactivities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Osama\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Osama\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\Osama\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Osama\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Osama\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.4\\microsoft.data.sqlite.core.5.0.4.nupkg.sha512",
     "C:\\Users\\Osama\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

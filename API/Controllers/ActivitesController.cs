@@ -3,7 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Activities;
 using Domain;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
@@ -14,15 +16,11 @@ namespace API.Controllers
 
     public class ActivitesController : BaseApiController
     {
-        private readonly DataContext context;
-        public ActivitesController(DataContext context)
-        {
-            this.context = context;
-        }
+      
         [HttpGet]
         public async Task<ActionResult<List<Activity>>> GetActivites()
         {
-            return await context.Activities.ToListAsync();
+            return await Mediator.Send(new List.Query());
 
         }
 
@@ -30,8 +28,7 @@ namespace API.Controllers
 
          public async Task<ActionResult<Activity>> GetSingleActivites(Guid id)
         {
-            return await context.Activities.FindAsync(id);
-
+            return Ok();
         }
 
 
